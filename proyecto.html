@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Asegura que la página sea responsiva en dispositivos móviles -->
+    <link rel="stylesheet" href="style.css" /> <!-- Enlaza el archivo de estilos CSS externo -->
+    <title>Planes de Mensualidad</title> <!-- Título que aparecerá en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Div para insertar formas gráficas o animaciones mediante JavaScript -->
+    <div id="canvas-shapes"></div>
+
+    <!-- Contenedor principal que agrupa los planes de suscripción -->
+    <div class="container">
+        <!-- Caja para el Plan Simple -->
+        <div class="box simple">
+            <!-- Encabezado que muestra el nombre del plan -->
+            <div class="header">Plan Simple</div>
+            <!-- Contenido que lista las características del plan -->
+            <div class="content">
+                <ul>
+                    <li class="cash"><span>$50</span> Mes</li> <!-- Precio del plan -->
+                    <li class="cash">Biblioteca Limitada</li> <!-- Acceso a la biblioteca con limitaciones -->
+                    <li>5 listas de reproducción</li> <!-- Número de listas de reproducción disponibles -->
+                    <li>500 MB de almacenamiento</li> <!-- Capacidad de almacenamiento incluida -->
+                    <li>Reproducción con anuncios</li> <!-- Muestra si el plan incluye anuncios durante la reproducción -->
+                    <li><a href="#">Comprar ahora</a></li> <!-- Enlace para comprar el plan (sin funcionalidad activa) -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Caja para el Plan Básico -->
+        <div class="box basico">
+            <div class="header">Plan Básico</div> <!-- Encabezado para el plan básico -->
+            <div class="content">
+                <ul>
+                    <li class="cash"><span>$100</span> Mes</li> <!-- Precio del plan básico -->
+                    <li class="cash">Recursos limitados</li> <!-- Restricciones en el uso de recursos -->
+                    <li>15 listas de reproducción</li> <!-- Número de listas de reproducción disponibles -->
+                    <li>2 GB de almacenamiento</li> <!-- Capacidad de almacenamiento incluida -->
+                    <li>Reproducción sin conexión</li> <!-- Muestra que permite reproducir sin estar conectado -->
+                    <li><a href="#">Comprar ahora</a></li> <!-- Enlace para comprar el plan básico (sin funcionalidad activa) -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Caja para el Plan Premium -->
+        <div class="box premium">
+            <div class="header">Plan Premium</div> <!-- Encabezado para el plan premium -->
+            <div class="content">
+                <ul>
+                    <li class="cash"><span>$150</span> Mes</li> <!-- Precio del plan premium -->
+                    <li class="cash">Acceso ilimitado</li> <!-- Acceso sin restricciones a recursos -->
+                    <li>Listas ilimitadas</li> <!-- Número ilimitado de listas de reproducción -->
+                    <li>10 GB de almacenamiento</li> <!-- Capacidad de almacenamiento incluida -->
+                    <li>Reproducción sin conexión y sin anuncios</li> <!-- Muestra que permite reproducción sin conexión y sin anuncios -->
+                    <li><a href="#">Comprar ahora</a></li> <!-- Enlace para comprar el plan premium (sin funcionalidad activa) -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Incluye un archivo de JavaScript externo para agregar interactividad -->
+    <script src="script.js"></script>
+</body>
+</html>
+
